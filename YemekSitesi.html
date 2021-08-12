@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LEZZETLİ YEMEK TARİFLERİ</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+
+        h1 {
+            text-align: center;
+            color: orangered;
+        }
+
+        h6 li a {
+            float: right;
+        }
+
+        h6 .menu li a:hover {
+            background: #e62117;
+            padding: 8px 10px;
+        }
+
+        i {
+            color: orangered;
+            font-size: 30px;
+            padding-top: 15px;
+            margin: 5px;
+            cursor: default;
+        }
+
+        .bol {
+            position: absolute;
+            display: block;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .menu li a {
+            font-size: 15px;
+            text-decoration: none;
+            color: black;
+            padding: 10px 17px;
+            padding-top: 10px;
+            transition: 0.8s;
+        }
+
+            .menu li a:hover {
+                background: #e62117;
+                padding: 10px 35px;
+            }
+
+        .resim {
+            margin: 8px;
+            padding: 3px;
+            border: 1px solid #ccc;
+            width: 550px;
+            float: right;
+        }
+
+            .resim:hover {
+                border: 1px solid orangered;
+                opacity: 0.6;
+            }
+
+            .resim img {
+                text-align: center;
+            }
+
+        .yazi {
+            padding: 15px;
+            text-align: center;
+        }
+
+        table {
+            margin: 3px;
+            width: 200px;
+            border-spacing: 25px;
+            padding: 1px;
+        }
+
+        th {
+            text-align: left;
+            color: red;
+        }
+
+        table, th, td {
+            border: 3px dashed orangered;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        <img src="ascısapkası3.png " style="height:100px; weight:100px;"> L E Z Z E T L İ &nbsp&nbsp&nbsp Y E M E K &nbsp&nbsp&nbsp T A R İ F L E R İ<img src="ascısapkası2.png " style="height:100px; weight:100px;">
+        <a href="https://www.whatsapp.com"><i class="fab fa-whatsapp" style="padding:5px;color:limegreen;margin:0;float:right;"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram" style="padding:5px;color:rgb(220,0,130);margin:0;float:right;"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter" style="padding:5px;color:rgb(114,240,255);margin:0;float:right;"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-f" style="padding:5px;color:blue;margin:0;float:right;"></i></a>
+    </h1><br>
+
+    <div class="resim">
+        <a target="_blank" href="yemek4.jpg">
+            <img src="yemek4.jpg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">KAHVALTILIK</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="latte.jpeg">
+            <img src="latte.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">LATTE</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="balık.jpeg">
+            <img src="balık.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">BALIK</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="yemek1.jpg">
+            <img src="yemek1.jpg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">TATLI</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="vişne.jpeg">
+            <img src="vişne.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">VİŞNE SUYU</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="kahve.jpeg">
+            <img src="kahve.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">KAHVE</div>
+    </div>
+    <!--CORBA-->
+    <div class="resim" id="ÇORBA">
+        <a target="_blank" href="mantar.jpeg">
+            <img src="mantar.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">MANTAR ÇORBASI</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="domates.jpeg">
+            <img src="domates.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">DOMATES ÇORBASI</div>
+    </div>
+    <!--ANAYEMEK-->
+    <div class="resim " id="ANAYEMEK">
+        <a target="_blank" href="balık.jpeg">
+            <img src="balık.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">BALIK</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="iclikofte.jpeg">
+            <img src="iclikofte.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">İÇLİ KÖFTE</div>
+    </div>
+    <!--TATLI-->
+    <div class="resim" id="TATLI">
+        <a target="_blank" href="kıbrıs.jpeg">
+            <img src="kıbrıs.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">KIBRIS TATLISI</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="tulumba.jpeg">
+            <img src="tulumba.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">TULUMBA TATLISI</div>
+    </div>
+    <!--İCECEK-->
+    <div class="resim" id="İÇECEK">
+        <a target="_blank" href="vişne.jpeg">
+            <img src="vişne.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">VİŞNE SUYU</div>
+    </div>
+    <div class="resim">
+        <a target="_blank" href="kahve.jpeg">
+            <img src="kahve.jpeg" alt="" width="500" height="400">
+        </a>
+        <div class="yazi">KAHVE</div>
+    </div>
+    <div class="bol">
+        <div class=" menu">
+            <i class="fa fa-home" style="font-size:45px; color:darkorange;"></i>
+            <li> <i class="fas fa-utensils" title="Tarifler"></i><li>
+                <ul>
+                    <li><a href="#ÇORBA"><span style="font-size:35px;"> &#127861</span>ÇORBA</a></li>
+                    <li><a href="#ANAYEMEK"><span style="font-size:35px;"> &#127858</span>ANAYEMEK</a></li>
+                    <li><a href="#TATLI"><span style="font-size:35px;"> &#127856</span>TATLI</a></li>
+                    <li><a href="#İÇECEK"><span style="font-size:35px;"> &#127865</span>İÇECEK</a></li>
+                </ul>
+                <i class="fas fa-utensils" title="Öğün"></i>
+                <ul>
+                    <li><a href="#"><span style="font-size:35px;"> &#127859</span>KAHVALTI</a></li>
+                    <li><a href="#"><span style="font-size:35px;"> &#127836</span>ÖĞLE</a></li>
+                    <li><a href="#"><span style="font-size:35px;"> &#127857</span>AKŞAM</a></li>
+                    <li><a href="#"><span style="font-size:35px;"> &#127828</span>ATIŞTIRMALIK</a></li>
+                </ul>
+                <i class="fas fa-utensils" title="Kolaylar"></i>
+                <ul>
+                    <li><a href="#"><span style="font-size:35px;"> &#127849</span>TATLI</a></li>
+                    <li><a href="#"><span style="font-size:35px;"> &#127829</span>TUZLU</a></li>
+                </ul>
+        </div>
+        <table>
+            <tr>
+                <th>YAZARLAR <img src="gif1.gif" style="height:100px;width:100px;border-radius:50px;margin:3px;"></th>
+            </tr>
+            <tr>
+                <td>TUĞBA</td>
+                <td>MİNE</td>
+                <td>SERDAR</td>
+                <td>BEYZA</td>
+            </tr>
+        </table>
+
+</body>
+</html>
